@@ -8,10 +8,16 @@
             .center {
                 text-align: center;   
             }
+            .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
         </style>
     </head>
     <body>
-        <div class="center">
+        <div class="centered">
         <h1>Welcome to ScienceDB</h1>
         <p>Version: 0.1.0</p>
         <p>Date of last update: 11/8/2018</p>
@@ -41,7 +47,7 @@ color: rgb(255,255,255);
 }
 .container {
     position: relative;
-    text-align: left;
+    text-align: center;
     color: rgb(255,255,255);
 }
 .tl {
@@ -49,12 +55,18 @@ color: rgb(255,255,255);
     top: 8px;
     left: 16px;
 }
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 </style>
     </head>
     <body>
         <div class="container">
         <img src='snow.gif' id='selector'/>
-        <div class="tl">
+        <div class="centered">
         <h1>Welcome to ScienceDB</h1>
         <p>Version: 0.1.0</p>
         <p>Date of last update: 10/31/2018</p>
